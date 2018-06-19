@@ -1,9 +1,13 @@
 {
     "presets": [
-        "env",
+        ["env", {
+          "targets": {
+            "browsers": [ ">0.25%"]
+          }
+        }],
         "react"
     ],
-    "plugins": [        
+    "plugins": [
         "transform-object-rest-spread",
         "transform-react-jsx"
     ],
